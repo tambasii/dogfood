@@ -59,3 +59,17 @@ section {
     text-align: center;
 }
 
+.two-columns {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.two-columns.reversed {
+    flex-direction: row-reverse;
+}
+
+.text-column {
+    flex: 1;
+}
